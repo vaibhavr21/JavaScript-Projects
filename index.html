@@ -1,121 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portfolio Website</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/7a4b62b0a4.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-      <section id="project">
-        <h2>PROJECTS</h2>
-        <div class="container">
-          <div class="project_container">
-            <div class="grid_item">
-              <div class="card">
-                <img src="images/Love calculator js 2.png" alt="Project 1" />
-                <a href="/Project 1/index.html">
-                  <div class="card_content">
-                    <h3>Love Calculator</h3>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="grid_item">
-              <div class="card">
-                <img src="images/BMI calculator js.png" alt="Project 2" />
-                <a href="/Project 2/index.html">
-                  <div class="card_content">
-                    <h3>BMI Calculator</h3>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="grid_item">
-              <div class="card">
-                <img src="images/project3.png" alt="" />
-                <a href="/Project 3/index.html">
-                  <div class="card_content">
-                    <h3></h3>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="grid_item">
-              <div class="card">
-                <img src="images/project4.png" alt="" />
-                <a href="/Project 4/index.html">
-                  <div class="card_content">
-                    <h3></h3>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="grid_item">
-              <div class="card">
-                <img src="images/project5.png" alt="" />
-                <a href="/Project 5/index.html">
-                  <div class="card_content">
-                    <h3></h3>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="grid_item">
-              <div class="card">
-                <img src="images/project6.png" alt="" />
-                <a href="/Project 6/index.html">
-                  <div class="card_content">
-                    <h3></h3>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="grid_item">
-              <div class="card">
-                <img src="images/project7.png" alt="" />
-                <a href="/Project 7/index.html">
-                  <div class="card_content">
-                    <h3></h3>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="grid_item">
-              <div class="card">
-                <img src="images/project8.png" alt="" />
-                <a href="/Project 8/index.html">
-                  <div class="card_content">
-                    <h3></h3>
-                  </div>
-                </a>
-              </div>
-            </div>
-            <div class="grid_item">
-              <div class="card">
-                <img src="images/project9.png" alt="" />
-                <a href="/Project 9/home.html">
-                  <div class="card_content">
-                    <h3></h3>
-                  </div>
-                </a>
-              </div>
-            </div>
-          </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Love Calculator</h2>
+        <div class="love-calculator">
+            <label for="name1">Your Name:</label>
+            <input type="text" id="name1" placeholder="Enter Your Name">
+            <label for="name2">Partner's Name:</label>
+            <input type="text" id="name2" placeholder="Enter Your Partner's Name">
+            <button onclick="calculateLove()">Calculate</button>
+            <div id="result">Result</div>
         </div>
-      </section>
-    </main>
-    <footer>
-      <div class="container">Created by VKM</div>
-    </footer>
-  </body>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
 </html>
