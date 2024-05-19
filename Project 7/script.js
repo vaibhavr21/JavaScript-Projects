@@ -48,9 +48,9 @@ function calculateTip(){
         amountPerPerson += 5;
        }
 
-       tipAmountOutput.textContent = `Tip: $₹{tip.toFixed(2)}`;
-       totalAmountOutput.textContent = `Total Amount: $₹{totalAmount.toFixed(2)}`;
-       amountPerPersonOutput.textContent = `Amount Per Person: $₹{amountPerPerson.toFixed(2)}`;
+       tipAmountOutput.textContent = `Tip: ₹${tip.toFixed(2)}`;
+       totalAmountOutput.textContent = `Total Amount: ₹${totalAmount.toFixed(2)}`;
+       amountPerPersonOutput.textContent = `Amount Per Person: ₹${amountPerPerson.toFixed(2)}`;
 
 
 
