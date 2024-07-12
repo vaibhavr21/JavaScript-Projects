@@ -18,8 +18,6 @@ body{
 
     display: grid;
 
-    color: #ffffff;
-
     align-items: center;
 
     grid-template-columns: 8fr 4fr;
@@ -78,6 +76,10 @@ body{
 
 }
 
+.seconds{
+    color: #00eeff;
+}
+
 @keyframes neon-glow{
 
     0%{
@@ -100,18 +102,38 @@ body{
 
     padding: 10px;
 
-    background-color: #2784e0;
+    background-color: #f09012;
 
-    color: #fff;
+    color: #05444d;
 
     text-align: center;
 
     border-radius: 5px;
-
+    font-weight: 600;
 }
 
 .date-container span{
 
     font-size: 2.5em;
 
+}
+
+
+/* For Mobile Device */
+
+@media (max-width: 480px) {
+    .container{
+        width: 20.87em;
+    }
+    
+    .clock-container{
+        font-size: 1.4em;
+        padding: 0.6em 0;
+        border-radius: 23%;
+
+    }
+    
+    .clock-container span{
+        width: 40px;
+    }
 }
