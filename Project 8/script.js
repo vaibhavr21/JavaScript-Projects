@@ -55,7 +55,7 @@ function updateClock(){
      dateContainer.innerHTML = ` <p>${day}</p><p><span>${date}</span></p><p>${month}</p>`;   
 
      hoursContainer.textContent = hours + " : ";
-     minutesContainer.textContent = minutes + " : ";
+     minutesContainer.textContent = minutes + " :";
      secondsContainer.textContent = seconds;
 
 }
