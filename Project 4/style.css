@@ -35,25 +35,19 @@ p{
     margin: 0 auto;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
-.counter-display{
-    font-size: 72px;
-    font-weight: bold;
-    color: #333;
-    margin-bottom: 20px;
-    text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-}
 .button-container{
     margin-bottom: 20px;
 }
 button{
-    padding: 10px 20px;
+    padding: 12px 21px;
     background-color: #007bff;
     border: none;
+    font-size: 20px;
     border-radius: 5px;
     cursor: pointer;
-    margin: 0 10px;
-    width: 80px;
-    color: #fff;
+    margin: 15px 17px;
+    width: 93px;
+    font-weight: 549;
 }
 #resetBtn{
     background-color: #c82333;
