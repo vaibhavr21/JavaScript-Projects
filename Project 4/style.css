@@ -105,4 +105,17 @@ button{
         height: 500px;
         width: 342px;
     }
+    .button-container{
+        margin-bottom: 20px;
+    }
+    button{
+        padding: 8px 9px;
+        font-size: 20px;
+        margin: 12px 17px;
+        width: 69px;
+        font-weight: 549;
+    }
+    .blue-Btn{
+        font-size: 22px;
+    }
 }    
