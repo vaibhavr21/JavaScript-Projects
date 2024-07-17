@@ -1,6 +1,13 @@
-body{
-    margin: 200px;
-    background-color: rgb(255, 201, 243);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(243, 221, 253, 0.548);
+    position: relative;
 }
 h1{
     margin-bottom: 30px;
