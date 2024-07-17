@@ -10,7 +10,9 @@ html,body{
     position: relative;
 }
 h1{
-    margin-bottom: 30px;
+    margin-bottom: 58px;
+    padding: 15px 5px;
+    font-size: 38px;
 }
 p{
     font-size: 25px;
