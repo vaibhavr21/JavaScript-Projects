@@ -79,4 +79,13 @@ button{
         height: 440px;
         width: 272px;
     }
+    button{
+        padding: 8px 0px;
+        font-size: 20px;
+        margin: 13px 8px;
+        width: 64px;
+    }
+    .blue-Btn{
+        font-size: 22px;
+    }
 }
