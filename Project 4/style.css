@@ -118,4 +118,11 @@ button{
     .blue-Btn{
         font-size: 22px;
     }
-}    
+}
+
+/* Devices width 401 to 500 */
+@media only screen and (min-width: 401px) and (max-width: 500px){
+    .container-card{
+        width: 375px;
+    }
+}
