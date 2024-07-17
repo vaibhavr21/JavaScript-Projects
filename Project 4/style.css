@@ -89,3 +89,20 @@ button{
         font-size: 22px;
     }
 }
+
+/* Mobile Devices width 376 to 400 */
+@media only screen and (min-width: 376px) and (max-width: 400px){
+    h1{
+        margin-bottom: 58px;
+        padding: 15px 13px;
+        font-size: 36px;
+    }
+    p{
+        font-size: 98px;
+        margin-bottom: 50px;
+    }
+    .container-card{
+        height: 500px;
+        width: 342px;
+    }
+}    
