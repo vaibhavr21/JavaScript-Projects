@@ -5,8 +5,9 @@ body{
     padding: 0;
 }
 .container{
+    height: 90vh;
     max-width: 500px;
-    margin: 150px auto;
+    margin: 12px auto;
     padding: 20px;
     background-color: #252525;
     border-radius: 8px;
