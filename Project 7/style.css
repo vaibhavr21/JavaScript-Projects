@@ -76,3 +76,11 @@ h1{
 #calculateBtn:hover{
     background-color: #53031b;
 }
+
+/* For Mobile Devices */
+
+@media (max-width: 545px){
+    .container{
+        margin: 12px 12px;
+    }
+}
