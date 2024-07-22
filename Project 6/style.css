@@ -94,4 +94,9 @@ button{
         height: 30vh;
         margin-bottom: 22px;
     }
+
+    input[type="range"] {
+        width: 38vw;
+        margin-right: 5px;
+    }
 }    
