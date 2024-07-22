@@ -106,4 +106,9 @@ button{
         font-size: 12px;
         width: 47vw;
     }
+
+    button {
+        padding: 10px 11px;
+        font-size: 10px;
+    }
 }    
