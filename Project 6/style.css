@@ -76,3 +76,11 @@ button{
     text-align: center;
     width: 180px;
 }
+
+
+
+@media (max-width: 550px) {
+    .container {
+        margin: 16vw auto;
+    }
+}    
