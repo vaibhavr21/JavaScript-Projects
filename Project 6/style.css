@@ -83,4 +83,9 @@ button{
     .container {
         margin: 16vw auto;
     }
+    
+    .container h1 {
+        font-size: 5vw;
+        margin-bottom: 32px
+    }
 }    
