@@ -99,4 +99,11 @@ button{
         width: 38vw;
         margin-right: 5px;
     }
+
+    .input-type-value {
+        padding: 16px 6px;
+        border-radius: 4px;
+        font-size: 12px;
+        width: 47vw;
+    }
 }    
