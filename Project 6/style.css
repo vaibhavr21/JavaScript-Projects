@@ -83,9 +83,15 @@ button{
     .container {
         margin: 16vw auto;
     }
-    
+
     .container h1 {
         font-size: 5vw;
         margin-bottom: 32px
+    }
+
+    .color-box {
+        width: 60vw;
+        height: 30vh;
+        margin-bottom: 22px;
     }
 }    
