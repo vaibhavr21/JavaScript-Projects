@@ -78,7 +78,7 @@ button{
 }
 
 
-
+/* For Mobile Devices */
 @media (max-width: 550px) {
     .container {
         margin: 16vw auto;
