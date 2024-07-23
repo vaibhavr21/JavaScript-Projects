@@ -1,5 +1,5 @@
 body{
-    background-color: #fceaff;
+    background-color: #6e53e9;
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -11,14 +11,14 @@ body{
 }
 .container{
     width: 500px;
-    background-color: #fff0f6;
+    background-color: #cb95f7;
     padding: 50px;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
     text-align: center;
 }
 h2{
-   color: #ff85c0;
+   color: #6e3fdb;
    font-size: 28px;
    margin-bottom: 20px;
 }
@@ -34,10 +34,10 @@ input[type="text"]{
     width: 95%;
     padding: 10px;
     margin-top: 10px;
-    color: #ff85c0;
+    color: #7d35c0;
 }
 button{
-    background-color: #ff85c0;
+    background-color: #43aada;
     color: #fff;
     border: none;
     padding: 10px 30px;
