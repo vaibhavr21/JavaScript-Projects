@@ -67,7 +67,7 @@ button{
 /*               For Mobile devices                 */
 @media only screen and (max-width: 375px){
     h1{
-        margin-bottom: 58px;
+        margin-bottom: 50px;
         padding: 12px 11px;
         font-size: 24px;
     }
