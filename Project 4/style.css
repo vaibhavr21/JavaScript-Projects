@@ -68,8 +68,8 @@ button{
 @media only screen and (max-width: 375px){
     h1{
         margin-bottom: 50px;
-        padding: 12px 11px;
-        font-size: 24px;
+        padding: 10px 8px;
+        font-size: 20px;
     }
     p{
         font-size: 82px;
@@ -93,9 +93,9 @@ button{
 /* Mobile Devices width 376 to 400 */
 @media only screen and (min-width: 376px) and (max-width: 400px){
     h1{
-        margin-bottom: 58px;
-        padding: 15px 13px;
-        font-size: 36px;
+        margin-bottom: 53px;
+        padding: 10px 9px;
+        font-size: 32px;
     }
     p{
         font-size: 98px;
